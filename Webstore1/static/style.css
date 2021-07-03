@@ -1,0 +1,94 @@
+body{
+    font-family: poppins;
+}
+.wraper{
+    width: 100%;
+    margin: 0vh auto;
+}
+.sidebar{
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.sidebar h1{
+    padding: 0px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 42px;
+    display: block;
+    color: white;
+}
+.sidebar a{
+    padding: 40px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+.topbar{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 170px;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-size: 24px;
+}
+.infobar{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    right:0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+}
+
+.mainblock{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right:150px;
+    left: 170px;
+    padding: 20px 20px 20px 20px;
+}
+
+.mainText{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left:170px;
+    right: 50%;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+    font-size: 35px;
+    }
+
+  .igmagebox{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    right:20%;
+    left: 50%;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+    }
